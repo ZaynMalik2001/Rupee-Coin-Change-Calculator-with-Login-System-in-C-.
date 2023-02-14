@@ -71,3 +71,16 @@ int main()
 
 	return 0;
 }
+project name :
+			Rupee Coin Change Calculator with Login System in C++.
+		description:
+			This C++ code allows the user to calculate the minimum number of coins required to return a certain amount in rupees using the available rupee denominations,
+			 which are defined in the constant integer array rupee.
+		
+		The minCoinChange function takes an integer argument v representing the amount in rupees to return, and calculates the minimum number of coins needed to return
+		 that amount using a greedy algorithm. The function loops over the rupee array in descending order, subtracting the largest available denomination from the 
+		 remaining amount until the amount is zero.
+		
+		The main function contains a menu system that allows the user to input their email address and password, and then enter the amount in rupees to return.
+		 The menu also includes an option to exit the program. If the email address and password entered match the pre-defined values,
+		  the minCoinChange function is called with the user-inputted amount in rupees. If the email address or password is incorrect, the user is notified and prompted to try again.
